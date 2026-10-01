@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Segoe UI', sans-serif;
+    background-color: #F8F5EE;
+    color: #263328;
+  }
+}
+
+.font-serif-kr {
+  font-family: 'Gowun Batang', 'Maru Buri', Georgia, serif;
+}

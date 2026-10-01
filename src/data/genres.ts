@@ -1,0 +1,88 @@
+import { BookGenre } from '../types';
+
+export const BOOK_GENRES: BookGenre[] = [
+  {
+    id: 'literature_kr',
+    name: '한국문학 / 소설',
+    englishName: 'Korean Literature',
+    icon: '📚',
+    description: '젊은작가상, 현대소설, 고전문학',
+  },
+  {
+    id: 'literature_world',
+    name: '세계문학 / 고전',
+    englishName: 'World Literature',
+    icon: '🌍',
+    description: '영미·유럽 문학, 번역소설, 세계고전',
+  },
+  {
+    id: 'poetry_essay',
+    name: '시 / 에세이',
+    englishName: 'Poetry & Essay',
+    icon: '✍️',
+    description: '현대시, 산문집, 청춘·일상 에세이',
+  },
+  {
+    id: 'humanities_philosophy',
+    name: '인문학 / 철학',
+    englishName: 'Humanities & Philosophy',
+    icon: '🏛️',
+    description: '동서양 철학, 윤리학, 인류학, 사상사',
+  },
+  {
+    id: 'history_culture',
+    name: '역사 / 문화',
+    englishName: 'History & Culture',
+    icon: '📜',
+    description: '한국사, 세계사, 문명사, 문화비평',
+  },
+  {
+    id: 'social_politics',
+    name: '사회과학 / 정치·법',
+    englishName: 'Social Science & Law',
+    icon: '⚖️',
+    description: '사회문제, 미디어, 젠더, 법학, 정치',
+  },
+  {
+    id: 'economy_business',
+    name: '경제 / 경영 / 투자',
+    englishName: 'Economy & Business',
+    icon: '📈',
+    description: '거시경제, 스타트업, 트렌드, 재테크',
+  },
+  {
+    id: 'natural_science',
+    name: '자연과학 / 수학',
+    englishName: 'Natural Science',
+    icon: '🔬',
+    description: '물리, 생명과학, 우주천문, 대중수학',
+  },
+  {
+    id: 'tech_computer',
+    name: 'IT / 공학 / AI',
+    englishName: 'Tech & Engineering',
+    icon: '💻',
+    description: '프로그래밍, 인공지능, 테크 트렌드',
+  },
+  {
+    id: 'art_cinema',
+    name: '예술 / 건축 / 영화',
+    englishName: 'Arts & Architecture',
+    icon: '🎨',
+    description: '미술사, 사진, 건축, 음악, 영상예술',
+  },
+  {
+    id: 'psychology_self',
+    name: '심리학 / 자기계발',
+    englishName: 'Psychology & Growth',
+    icon: '🌱',
+    description: '인지심리, 대인관계, 마음챙김, 습관',
+  },
+  {
+    id: 'genre_fiction',
+    name: '장르문학 (SF / 추리 / 판타지)',
+    englishName: 'Sci-Fi & Mystery',
+    icon: '🛸',
+    description: '하드SF, 미스터리, 스릴러, 판타지',
+  },
+];

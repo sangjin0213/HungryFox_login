@@ -1,0 +1,6 @@
+{
+  "name": "배고픈여우 - 대학생 독서기록 SNS 회원가입",
+  "description": "대학생들을 위한 미니멀 독서기록 커뮤니티 회원가입 및 엑셀 명부 다운로드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

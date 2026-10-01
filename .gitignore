@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+server.js
+coverage/
+
+# Env / secrets
+.env*
+!.env.example
+
+# Cache
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 회원 명부 엑셀 (개인정보 포함 — 절대 커밋 금지)
+*.xlsx
+*.xls
+*.csv
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deploy
+.vercel
+.netlify
